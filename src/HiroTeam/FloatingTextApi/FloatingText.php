@@ -39,11 +39,11 @@ class FloatingText extends PluginBase
     /**
      * @var SkinTag
      */
-    private $floatingTextEntity;
+    private $skinTag;
 
     public function onEnable()
     {
-        $this->floatingTextEntity = new SkinTag();
+        $this->skinTag = new SkinTag();
         $this->getServer()->getPluginManager()->registerEvents(new FloatingTextListener(), $this);
     }
 
@@ -60,7 +60,7 @@ class FloatingText extends PluginBase
         $level = $player->getLevel();
         $levelName = $level->getName();
         $nbt = Entity::createBaseNBT(new Vector3($x, $y, $z));
-        $nbt->setTag(clone $this->floatingTextEntity->getSkinTag());
+        $nbt->setTag(clone $this->skinTag->getSkinTag());
         $floatingText = new FloatingTextEntity($level, $nbt);
         $floatingText->spawnToAll();
         $floatingText->setImmobile();
