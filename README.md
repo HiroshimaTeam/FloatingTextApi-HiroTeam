@@ -7,9 +7,9 @@
 
 ---
 ### How to use
-[ENG] Configure in config.yml what you want to Furnace with what will come out as a result! Then make Furnace the desired item and the Wanted Result will come out!</br>
+[ENG] soon... </br>
 
-[FRA] Configurer dans le config.yml ce dont vous voulez faire cuire avec ce qui en sortira comme resultat ! Ensuite faite Cuire l'item voulu et le Resultat Voulu en sortira !</br>
+[FRA] bientot... </br>
 
 ##### Here is the video:
 - FloatingTextApi Pocketmine library in __Youtube__ ! __no video yet__
