@@ -14,7 +14,7 @@
 * `removeFloatingTextByEntity(Entity $entity)` | @return false or string id of the floating text entity </br>
 * `removeFloatingTextById($id)` | @param string[]|string $id | Can support multiple  id in same function </br>
 
-##### Here is the video:
+##### Tuto video:
 - FloatingTextApi Pocketmine library in __Youtube__ ! __no video yet__
 ###### Have you made a video? Contact me to put it [here](https://discord.gg/WuwsuUA):exclamation:
 ---
