@@ -6,10 +6,12 @@
 [FRA] C'est une bibliothèque [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) qui vous permet de créer vos textes flottant très simplement ! :grin:
 
 ---
-### How to use
-[ENG] soon... </br>
-
-[FRA] bientot... </br>
+### Methods
+FloatingText::getInstance() </br>
+spawnFloatingText(Player $player, string $text): string | return string id of the floating text entity</br>
+updateFloatingTextById(string $text, $id) | @param string[]|string $id | Can support multiple  id in same function </br>
+removeFloatingTextByEntity(Entity $entity) | @return false or string id of the floating text entity </br>
+removeFloatingTextById($id) | @param string[]|string $id | Can support multiple  id in same function </br>
 
 ##### Here is the video:
 - FloatingTextApi Pocketmine library in __Youtube__ ! __no video yet__
@@ -57,7 +59,3 @@ This plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.ht
 ---
 ### Author
 - **Discord:** WillyDuGang#6947
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
