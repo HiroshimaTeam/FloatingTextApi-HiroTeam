@@ -7,13 +7,13 @@
 
 ---
 ### Methods
-`
-FloatingText::getInstance() </br>
-spawnFloatingText(Player $player, string $text): string | return string id of the floating text entity</br>
-updateFloatingTextById(string $text, $id) | @param string[]|string $id | Can support multiple  id in same function </br>
-removeFloatingTextByEntity(Entity $entity) | @return false or string id of the floating text entity </br>
-removeFloatingTextById($id) | @param string[]|string $id | Can support multiple  id in same function </br>
-`
+
+* `FloatingText::getInstance()` </br>
+* `spawnFloatingText(Player $player, string $text): string` | return string id of the floating text entity</br>
+* `updateFloatingTextById(string $text, $id)` | @param string[]|string $id | Can support multiple  id in same function </br>
+* `removeFloatingTextByEntity(Entity $entity)` | @return false or string id of the floating text entity </br>
+* `removeFloatingTextById($id)` | @param string[]|string $id | Can support multiple  id in same function </br>
+
 ##### Here is the video:
 - FloatingTextApi Pocketmine library in __Youtube__ ! __no video yet__
 ###### Have you made a video? Contact me to put it [here](https://discord.gg/WuwsuUA):exclamation:
