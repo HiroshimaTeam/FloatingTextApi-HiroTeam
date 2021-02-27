@@ -2,6 +2,8 @@
 
 ---
 ### About
+![FloatingTextApi](https://user-images.githubusercontent.com/65712904/109392815-84449900-791e-11eb-962e-7688fd0ec86c.png)
+
 [ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) library that allow to make floating text very simply ! :grin:<br/><br/>
 [FRA] C'est une bibliothèque [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) qui vous permet de créer vos textes flottant très simplement ! :grin:
 
